@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>td</OriginalElement>
+  <nodes>
+    <node x="299.0" y="678.0">td.Main</node>
+    <node x="0.0" y="514.0">td.PetitBus</node>
+    <node x="513.0" y="678.0">td.Exceptions</node>
+    <node x="459.0" y="514.0">td.CamionBache</node>
+    <node x="0.0" y="774.0">td.Tests</node>
+    <node x="0.0" y="678.0">td.Simulator</node>
+    <node x="-297.0" y="170.0">td.Convoi</node>
+    <node x="259.0" y="514.0">td.CamionCiterne</node>
+    <node x="371.5" y="0.0">td.Machine</node>
+    <node x="276.5" y="123.0">td.Vehicule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="td.CamionCiterne" target="td.Vehicule">
+      <point x="0.0" y="-37.0" />
+      <point x="349.0" y="444.0" />
+      <point x="404.75" y="444.0" />
+      <point x="-42.75" y="148.0" />
+    </edge>
+    <edge source="td.Vehicule" target="td.Machine">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="td.PetitBus" target="td.Vehicule">
+      <point x="0.0" y="-37.0" />
+      <point x="119.5" y="444.0" />
+      <point x="319.25" y="444.0" />
+      <point x="-128.25" y="148.0" />
+    </edge>
+    <edge source="td.CamionBache" target="td.Vehicule">
+      <point x="0.0" y="-37.0" />
+      <point x="546.0" y="444.0" />
+      <point x="490.25" y="444.0" />
+      <point x="42.75" y="148.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="437.0" y="407.0" />
+  <SelectedNodes>
+    <node>td.Convoi</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
